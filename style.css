@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.logout-btn {
+    background: red;
+}
+
+.income { color: green; }
+.expense { color: red; }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary {
+    margin-top: 10px;
+    font-weight: bold;
+}
